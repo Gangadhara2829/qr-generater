@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            background-color: navy;
+            align-items:center;
+            height: 100vh;
+            padding: 50px;
+            justify-content: center;
+        }
+        .container{
+            align-items: center;
+            border: 5px red solid;
+            border-radius: 30px;
+            display: flex;
+            height: 400px;
+            width: 800px;
+            background-color: white;
+           flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center ;
+            padding: 40px, 20px;
+        }
+        button{
+            border-radius: 40px;
+            color: pink;
+            background-color: black;
+        }
+        input{
+            border-radius: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: solid;
+        }
+        h1{
+            text-align: center;
+            text-transform: capitalize;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>QR GENERATER FOR YOUR QUERY</h1>
+    <input type="text" placeholder="Enter name">
+    <br>
+    <button type="submit">submit</button> <br>
+    <img src=" " alt="loading.">
+    <script src="qr.js"></script>
+    </div>
+    
+</body>
+</html>
